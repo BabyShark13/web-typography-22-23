@@ -8,6 +8,7 @@ body {
 	height: 100vh;
 	margin: 0;
 	justify-content: center;
+	background-color: black;
 }
 #video-container {
 	margin: 2em auto;
@@ -59,12 +60,12 @@ Feel free to adjust the defaults to your needs.
 .voice1 {
 	color: red;
 	font-weight: 500;
-	font-style: italic;
+	font-style: normal;
 }
 .voice2 {
 	color: green;
 	font-weight: 500;
-	font-style: normal;
+	font-style: italic;
 }
 
 .voice3{
