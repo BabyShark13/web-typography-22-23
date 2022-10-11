@@ -11,6 +11,7 @@ Feel free to adjust the defaults to your needs.
 	opacity: 0;
 	transition: .05s;
 	position: absolute;
+	font-size: 2.5em;
 }
 #closed-captions .on {
 	opacity: 1;
@@ -24,24 +25,26 @@ Feel free to adjust the defaults to your needs.
 
 
 .voice1 {
-	/* font-style: italic; */
 	color: red;
 	font-weight: 500;
-	/* font-style: normal; */
-	/* font-family: "Brenner Light Italic"; */
-	font-family: "Brenner Mono";
-font-style: Normal;
+	font-style: italic;
 }
 .voice2 {
-	/* font-weight: bold; */
 	color: green;
 	font-weight: 500;
-	font-style: italic;
+	font-style: normal;
 }
 
 .voice3{
 	color: blue;
-	font-family: bold;
+	font-style: oblique;
+	font-weight: lighter;
+}
+
+.voice4{
+	color: crimson;
+	font-style: oblique;
+	font-weight: 400;
 }
 
 
@@ -115,11 +118,11 @@ font-style: Normal;
 }
 
 
-.p1.on {
+/* .p1.on {
 	background: hotpink;
 	color: red;
 	font-size: 200px;
-}
+} */
 
 
 /* **********************************************
