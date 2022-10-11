@@ -1,8 +1,3 @@
-/* **********************************************
-Basic layout.
-	Place the video in the center of the page.
-*********************************************  */
-
 body {
 	display: grid;
 	height: 100vh;
@@ -12,6 +7,7 @@ body {
 }
 #video-container {
 	margin: 2em auto;
+	
 }
 #video-mask {
 	aspect-ratio: 240.5/100;
@@ -21,6 +17,8 @@ body {
 	transition: 1s;
 }
 
+
+
 iframe {
 	width: 80vw;
 	height: 53.33333333vw;
@@ -28,13 +26,6 @@ iframe {
 }
 
 
-/* **********************************************
-Basic mechanics
-Hide all paragraphs by default
-Show them when they receive the class 'on'
-Hide them when they receive the class 'off'
-Feel free to adjust the defaults to your needs.
-********************************************** */
 
 #closed-captions{
 	margin-top: 0;
@@ -62,6 +53,8 @@ Feel free to adjust the defaults to your needs.
 	font-weight: 500;
 	font-style: normal;
 }
+
+
 .voice2 {
 	color: green;
 	font-weight: 500;
@@ -82,17 +75,6 @@ Feel free to adjust the defaults to your needs.
 
 
 
-/* .p0 span {
-	opacity: 0;
-} */
-
-
-
-
-
-
-
-
 /* **********************************************
 Sounds.
 	You can style the whole body, or you can 
@@ -106,11 +88,17 @@ Sounds.
 }
 
 /* The moment the class .sound1 is added to the body, the movie makes a turn */
-.sound1 #video-mask {
-	
+.sound0 #video-mask {
+	/* box-shadow: 20x 20px 20px rgba(50, 50, 93, 0.2); */
+	box-shadow: 5px 10px 10px #888888;
 }
 
+.sound1 #video-mask {
+	/* box-shadow: 20x 20px 20px rgba(50, 50, 93, 0.2); */
+	box-shadow: 5px 10px 10px #ad0707;
+}
 
-
-
-
+.sound2 #video-mask {
+	/* box-shadow: 20x 20px 20px rgba(50, 50, 93, 0.2); */
+	box-shadow: 5px 10px 10px yellow;
+}
