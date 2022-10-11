@@ -1,4 +1,4 @@
-var player;
+	var player;
 
 function onYouTubeIframeAPIReady() {
 	player = new YT.Player('video-placeholder', {
