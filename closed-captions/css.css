@@ -92,6 +92,15 @@ iframe {
 	box-shadow: rgba(102, 102, 102, 0.8) 0px 7px 29px 0px;	
 }
 
+/* .video-effect{
+	background-color: #f6efffa1;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    position: relative;
+    margin: auto;
+} */
+
 @keyframes pulse {
 	100% {
 	  transform: scale(1.75);
@@ -104,9 +113,20 @@ iframe {
 }
 
 
-
-
 .sound2 #video-mask {
 	/* box-shadow: 20x 20px 20px rgba(50, 50, 93, 0.2); */
 	box-shadow: 5px 10px 10px yellow;
 }
+
+
+
+/* feedback
+
+fuck off dik gedrukt en wat licht naar die man die dat zegt
+beter te ver gaan en terug dan te voorzichtig te doen
+
+niet beeld versterken maar geluid 
+probeer grooter
+
+
+*/
