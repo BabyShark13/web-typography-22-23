@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	display: grid;
 	height: 100vh;
@@ -6,8 +10,7 @@ body {
 	background-color: black;
 }
 #video-container {
-	margin: 2em auto;
-	
+	margin: 2em auto;	
 }
 #video-mask {
 	aspect-ratio: 240.5/100;
@@ -17,8 +20,6 @@ body {
 	transition: 1s;
 }
 
-
-
 iframe {
 	width: 80vw;
 	height: 53.33333333vw;
@@ -26,16 +27,23 @@ iframe {
 }
 
 
+/* ..... */
 
 #closed-captions{
 	margin-top: 0;
+	position: relative;
 }
 
 #closed-captions p {
 	opacity: 0;
 	transition: .05s;
 	position: absolute;
-	font-size: 2.5em;
+	font-size: 1.5em;
+	bottom: -1em;
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: .5em;
+	left: 50%;
+	transform: translateX(-50%);
 }
 #closed-captions .on {
 	opacity: 1;
@@ -74,29 +82,29 @@ iframe {
 }
 
 
-
-/* **********************************************
-Sounds.
-	You can style the whole body, or you can 
-	style anything within the body the moment
-	a sound starts.
-*********************************************  */
-
 /* The moment the class .sound1 is added to the body, the background is yellow */
-.sound1 {
-	
-}
+/* .sound1 {
+	background-color: blanchedalmond;
+} */
 
 /* The moment the class .sound1 is added to the body, the movie makes a turn */
 .sound0 #video-mask {
-	/* box-shadow: 20x 20px 20px rgba(50, 50, 93, 0.2); */
-	box-shadow: 5px 10px 10px #888888;
+	box-shadow: rgba(102, 102, 102, 0.8) 0px 7px 29px 0px;	
+}
+
+@keyframes pulse {
+	100% {
+	  transform: scale(1.75);
+	  opacity: 0;
+	}
 }
 
 .sound1 #video-mask {
-	/* box-shadow: 20x 20px 20px rgba(50, 50, 93, 0.2); */
-	box-shadow: 5px 10px 10px #ad0707;
+	box-shadow: rgb(255 1 1) 18px 2px 29px, rgb(69 2 255) -12px 0px 29px;	
 }
+
+
+
 
 .sound2 #video-mask {
 	/* box-shadow: 20x 20px 20px rgba(50, 50, 93, 0.2); */
