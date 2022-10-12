@@ -38,22 +38,29 @@ iframe {
 	opacity: 0;
 	transition: .05s;
 	position: absolute;
-	font-size: 1.5em;
+	font-size: 1.25em;
 	bottom: -1em;
 	background-color: rgba(0, 0, 0, 0.7);
 	padding: .5em;
 	left: 50%;
 	transform: translateX(-50%);
 }
+
+#closed-captions .p6.on {
+	font-size: 2em;
+	font-weight: 900;
+}
+
 #closed-captions .on {
 	opacity: 1;
 }
+
 #closed-captions .off {
 	transition: .2s;
 	opacity: 0;
 }
 
-/* ..... */
+
 
 
 .voice1 {
@@ -90,7 +97,26 @@ iframe {
 /* The moment the class .sound1 is added to the body, the movie makes a turn */
 .sound0 #video-mask {
 	box-shadow: rgba(102, 102, 102, 0.8) 0px 7px 29px 0px;	
+	animation: tril 0.82s cubic-bezier(.36,.07,.19,.97) both;
 }
+
+@keyframes tril {
+	10%, 90% {
+	  transform: translate3d(-1px, 0, 0);
+	}
+	
+	20%, 80% {
+	  transform: translate3d(2px, 0, 0);
+	}
+  
+	30%, 50%, 70% {
+	  transform: translate3d(-4px, 0, 0);
+	}
+  
+	40%, 60% {
+	  transform: translate3d(4px, 0, 0);
+	}
+  }
 
 /* .video-effect{
 	background-color: #f6efffa1;
@@ -112,11 +138,17 @@ iframe {
 	box-shadow: rgb(255 1 1) 18px 2px 29px, rgb(69 2 255) -12px 0px 29px;	
 }
 
+/* background-color: #FF9A8B;
+background-image: linear-gradient(152deg, #FF9A8B 0%, #FF6A88 36%, #FF99AC 58%, #ffffff 100%); */
 
 .sound2 #video-mask {
 	/* box-shadow: 20x 20px 20px rgba(50, 50, 93, 0.2); */
 	box-shadow: 5px 10px 10px yellow;
 }
+
+
+/* fuck off groter en bold 
+beeld iets lager doen */
 
 
 
