@@ -61,6 +61,20 @@ iframe {
 	opacity: 0;
 }
 
+/* een witte lijn lang gaan op de zwarte achtergrond */
+.licht.sound0{
+	/* width: 100px;
+	height: 100px;
+	background: rgba(84, 66, 134, 0.689);
+	position: relative; */
+	background-color: rebeccapurple;
+	/* animation: langs 5s infinite; */
+}
+
+@keyframes langs {
+	from {left: 0%;}
+    to {left: 100%;}
+}
 
 
 
@@ -141,22 +155,25 @@ iframe {
 } */
 
 .sound1 #video-mask {
-	/* box-shadow: rgb(255 1 1) 18px 2px 29px, rgb(69 2 255) -12px 0px 29px;	 */
-	animation: blinking 1s infinite 2s;
+	animation: blink 3s ease-out;
 }
 
-@keyframes blinking {
+@keyframes blink {
 	0% {
-	  /* background-color: #06c3d1;
-	  border: 3px solid #666; */
-	  /* box-shadow: rgb(0, 55, 255) 18px 2px 29px; */
-	  box-shadow: rgb(69 2 255) 18px 2px 29px, rgb(69 2 255) -12px 0px 29px;	
+	  box-shadow: rgb(255 1 1) 18px 2px 29px, rgb(255 1 1) -12px 0px 29px;	
+	  opacity: 0;
+	}
+	30%{
+		opacity: .3;
+	}
+	50% {
+	  opacity: .5;
+	}
+	70%{
+		opacity: .8;
 	}
 	100% {
-	  /* background-color: #270da6;
-	  border: 3px solid #666; */
-	  /* box-shadow: rgb(255 1 1) 18px 2px 29px; */
-	  box-shadow: rgb(255 1 1) 18px 2px 29px, rgb(255 1 1) -12px 0px 29px;	
+	  opacity: 1;
 	}
   }
 
@@ -166,11 +183,24 @@ background-image: linear-gradient(152deg, #FF9A8B 0%, #FF6A88 36%, #FF99AC 58%, 
 
 .sound2 #video-mask {
 	/* box-shadow: 20x 20px 20px rgba(50, 50, 93, 0.2); */
-	box-shadow: 5px 10px 10px yellow;
+	/* box-shadow: 5px 10px 10px yellow; */
+	animation: blinking 1s backwards;
+
 	/* animation: shake .1s ease-gin-out alternate; */
 }
 
+@keyframes blinking {
+	0% {
+	  box-shadow: rgb(69 2 255) 18px 2px 29px, rgb(69 2 255) -12px 0px 29px;	
+	}
+	100% {
+	  box-shadow: rgb(255 1 1) 18px 2px 29px, rgb(255 1 1) -12px 0px 29px;	
+	}
+	
+	from {right: 0%;}
+    to {right: 100%;}
 
+  }
 
 
 /* 
