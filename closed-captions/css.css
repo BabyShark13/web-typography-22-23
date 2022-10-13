@@ -127,12 +127,12 @@ iframe {
     margin: auto;
 } */
 
-@keyframes pulse {
+/* @keyframes pulse {
 	100% {
 	  transform: scale(1.75);
 	  opacity: 0;
 	}
-}
+} */
 
 .sound1 #video-mask {
 	box-shadow: rgb(255 1 1) 18px 2px 29px, rgb(69 2 255) -12px 0px 29px;	
@@ -144,7 +144,36 @@ background-image: linear-gradient(152deg, #FF9A8B 0%, #FF6A88 36%, #FF99AC 58%, 
 .sound2 #video-mask {
 	/* box-shadow: 20x 20px 20px rgba(50, 50, 93, 0.2); */
 	box-shadow: 5px 10px 10px yellow;
+	/* animation: shake .1s ease-gin-out alternate; */
+	animation: blinking 1s infinite;
 }
+
+@keyframes blinking {
+	0% {
+	  background-color: #06c3d1;
+	  border: 3px solid #666;
+	  box-shadow: rgb(0, 55, 255) 18px 2px 29px;
+	}
+	100% {
+	  background-color: #270da6;
+	  border: 3px solid #666;
+	  box-shadow: rgb(255 1 1) 18px 2px 29px;
+	}
+  }
+
+
+/* 
+@keyframes shake {
+	0% {
+	  transform: rotate(-10deg);
+	}
+	100% {
+	  transform: rotate(10deg);
+	}
+  }
+   */
+
+
 
 
 /* fuck off groter en bold 
