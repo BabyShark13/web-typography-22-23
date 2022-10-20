@@ -425,7 +425,28 @@ background-image: linear-gradient(152deg, #FF9A8B 0%, #FF6A88 36%, #FF99AC 58%, 
 	}
   }
 
+  /* hoor een klik geluid zoals foto maken of iets type,
+  dus kan een soort flash wnr elke keer die klikt hoort
+  of soort licht in midden zoals die wordt overvraagd en spot heeft */
   
+
+   .sound9{
+	color: #fff;
+	animation: blink 3s linear infinite;
+  }
+  @keyframes blink {
+	0% {
+	  opacity: 0;
+	}
+	50% {
+	  opacity: .5;
+	}
+	100% {
+	  opacity: 1;
+	}
+  }
+/* die piep geluid aan einde van sound 9 moet nog bij */
+
 
 
 
