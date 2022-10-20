@@ -354,8 +354,9 @@ background-image: linear-gradient(152deg, #FF9A8B 0%, #FF6A88 36%, #FF99AC 58%, 
 	}
   }
 
-.sound8{
-	/* animation: lichtcell 3s ease; */
+  /* NIET ZEKER OVER */
+/* .sound8{
+	animation: lichtcell 3s ease;
 	animation: lichtcell 5s 1;
 	animation-direction: normal;
 	
@@ -382,6 +383,45 @@ background-image: linear-gradient(152deg, #FF9A8B 0%, #FF6A88 36%, #FF99AC 58%, 
 	100% {
 		background-position: left;
 		background:linear-gradient(180deg, rgb(0, 0, 0) 26%, rgb(255, 255, 255) 50%, rgb(0, 0, 0) 79%);	
+	}
+  } */
+
+  .sound8{
+	animation: lichtcell 3s ease;
+}
+
+@keyframes lichtcell {
+	0% {
+		background-position: right;
+		background:linear-gradient(90deg, rgb(0, 0, 0) 26%, rgb(255, 255, 255) 50%, rgb(0, 0, 0) 79%);	
+		background-size: 13%;
+	}
+	100% {
+		background-position: left;
+	}
+  }
+
+.sound8 #video-mask{
+	animation: shakecell 0.82s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+@keyframes shakecell {
+	10%, 90% {
+	  transform: translate3d(-1px, 0, 0);
+	  border: 1px solid rgb(243, 243, 243);
+	  box-shadow: rgba(102, 102, 102, 0.8) -20px 25px 70px -18px, rgba(102, 102, 102, 0.8) 20px -25px 110px -18px;
+	}
+	
+	20%, 80% {
+	  transform: translate3d(1px, 0, 0);
+	}
+  
+	30%, 50%, 70% {
+	  transform: translate3d(-3px, 0, 0);
+	}
+  
+	40%, 60% {
+	  transform: translate3d(3px, 0, 0);
 	}
   }
 
