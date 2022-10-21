@@ -428,13 +428,22 @@ background-image: linear-gradient(152deg, #FF9A8B 0%, #FF6A88 36%, #FF99AC 58%, 
   /* hoor een klik geluid zoals foto maken of iets type,	
   dus kan een soort flash wnr elke keer die klikt hoort
   of soort licht in midden zoals die wordt overvraagd en spot heeft */
-  
+  .sound9 #video-mask{
+	animation: zoom-in 34s ease infinite;
+  }
 
-   .sound9{
+  @keyframes zoom-in{
+	0% {transform: scale(1, 1);}
+	50% {transform: scale(1.5, 1.5);}
+	99% {transform: scale(2, 2);}
+	100% {transform: scale(0, 0);}
+  }
+
+   .sound10{
 	color: #fff;
-	animation: blink 3s linear infinite;
-	animation: redlight 40s ease;
-	animation-delay: 1s;
+	animation: blink 3s linear infinite, redlight 43s ease 1s;
+	/* animation: redlight 40s ease; */
+	/* animation-delay: 1s; */
 
   }
   @keyframes blink {
@@ -449,10 +458,10 @@ background-image: linear-gradient(152deg, #FF9A8B 0%, #FF6A88 36%, #FF99AC 58%, 
 	}
   }
 /* die piep geluid aan einde van sound 9 moet nog bij */
-
+/* 
 .sound10{
-	/* animation: redlight 5s; */
-}
+	 animation: redlight 5s;
+} */
 
 @keyframes redlight {
 	/* 10%{background-color: rgba(255, 0, 0, 0.1);}
@@ -470,8 +479,8 @@ background-image: linear-gradient(152deg, #FF9A8B 0%, #FF6A88 36%, #FF99AC 58%, 
 	0%{background-color: rgb(0, 0, 0);}
 	20%{background-color: rgb(37, 7, 7);}
 	40%{background-color: rgba(62, 0, 0);}
-	60%{background-color: rgba(124, 0, 0);}
-	80%{background-color: rgba(186, 0, 0);}
+	60%{background-color: rgb(101, 0, 0);}
+	80%{background-color: rgb(120, 0, 0);}
 	100%{background-color: rgba(255, 0, 0);}
 
 	

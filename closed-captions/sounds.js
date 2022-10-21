@@ -11,6 +11,8 @@ sounds = [
 	31,
 	32,
 	34,
-	70,//new
+	52, //inzoomen
+	70, //new piep
+	76, //new done
 	86
 ];
