@@ -471,8 +471,8 @@ background-image: linear-gradient(152deg, #FF9A8B 0%, #FF6A88 36%, #FF99AC 58%, 
 
 
   .sound10 #video-mask{
-	animation: zoom-in 34s ease 2s;
-	animation-timing-function: ease;
+	animation: zoom-in 25s ease-out;
+	/* animation-timing-function: ease-out; */
 
   }
 
@@ -486,9 +486,29 @@ background-image: linear-gradient(152deg, #FF9A8B 0%, #FF6A88 36%, #FF99AC 58%, 
 	100%{transform: scale(1, 1);}
   }
 
-.sound12 #video-mask{
-	
-}
+  .sound11{
+	animation: blink-fast 3s steps(5, start) infinite;
+  }
+
+  @keyframes blink-fast {
+	0% {
+	  opacity: 0;
+	}
+	50% {
+	  opacity: .5;
+	}
+	100% {
+	  opacity: 1;
+	}
+  }
+
+
+
+
+  /* .sound13 #video-mask{
+	transform: scale(1, 1);
+  } */
+
 
 
 
