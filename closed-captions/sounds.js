@@ -12,7 +12,9 @@ sounds = [
 	32,
 	34,
 	52, //inzoomen
-	67, //3x interlinked sound 11
+	68, //3x interlinked sound 11
+	70,
+	72,
 	// 70, //new piep
 	76, //new we done
 	86

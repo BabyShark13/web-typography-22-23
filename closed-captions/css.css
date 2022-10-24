@@ -444,7 +444,7 @@ background-image: linear-gradient(152deg, #FF9A8B 0%, #FF6A88 36%, #FF99AC 58%, 
 	50% {
 	  opacity: .5;
 	}
-	80%{ 
+	60%{ 
 		opacity: 1;
 	}
 	100% {
@@ -489,10 +489,20 @@ background-image: linear-gradient(152deg, #FF9A8B 0%, #FF6A88 36%, #FF99AC 58%, 
   }
 
   .sound11{
-	animation: blink-fast 3s infinite;
-	/* animation-delay: 0.1s; */
+	color: #fff;
+	animation: blink-fast 1s linear;
+	/* animation-delay: 2s; */
   }
-
+  .sound12{
+	color: white;
+	animation: blink-fast 1s linear;
+	/* animation-delay: -2s; */
+  }
+  .sound13{
+	color: white;
+	animation: blink-fast 1s linear;
+	/* animation-delay: -2s; */
+  }
 
   @keyframes blink-fast {
 	0% {
