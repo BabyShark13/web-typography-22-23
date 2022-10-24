@@ -432,7 +432,7 @@ background-image: linear-gradient(152deg, #FF9A8B 0%, #FF6A88 36%, #FF99AC 58%, 
 
    .sound9{
 	color: #fff;
-	animation: blink 3s infinite linear, redlight2 43s ease 1s;
+	animation: blink 2.8s linear infinite, redlight2 43s ease 1s;
 	/* animation: redlight 40s ease; */
 	/* animation-delay: 1s; */
 
@@ -488,20 +488,10 @@ background-image: linear-gradient(152deg, #FF9A8B 0%, #FF6A88 36%, #FF99AC 58%, 
 	100%{transform: scale(1, 1);}
   }
 
-  .sound11{
+  .sound11.sound12.sound13 {
 	color: #fff;
 	animation: blink-fast 1s linear;
 	/* animation-delay: 2s; */
-  }
-  .sound12{
-	color: white;
-	animation: blink-fast 1s linear;
-	/* animation-delay: -2s; */
-  }
-  .sound13{
-	color: white;
-	animation: blink-fast 1s linear;
-	/* animation-delay: -2s; */
   }
 
   @keyframes blink-fast {
