@@ -16,6 +16,11 @@ sounds = [
 	71,
 	73,
 	// 70, //new piep
-	76, //new we done
-	86
+	85, //new we done
+	86,
+	89,
+	103, //ring phone
+	105,
+	119
+
 ];
