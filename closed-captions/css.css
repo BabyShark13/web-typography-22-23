@@ -83,9 +83,9 @@ iframe {
 }
 
 .voice4{
-	color: rgb(141, 141, 141);
-	font-style: oblique;
-	font-weight: 600;
+	color: rgb(255, 255, 255);
+	font-style: normal;
+	font-weight: bolder;
 }
 
 .voice5{
@@ -511,6 +511,8 @@ background-image: linear-gradient(152deg, #FF9A8B 0%, #FF6A88 36%, #FF99AC 58%, 
 	/* animation-delay: 2s; */
   }
 
+
+   
   @keyframes blink-fast {
 	0% {
 		opacity: 1;
