@@ -116,7 +116,7 @@ iframe {
 	  transform: translate3d(-1px, 0, 0);
 	  border: 1px solid rgb(243, 243, 243);
 	  /* box-shadow: rgba(102, 102, 102, 0.8) -20px 25px 70px -18px, rgba(102, 102, 102, 0.8) 20px -25px 110px -18px; */
-	  box-shadow: 0px 0px 12px 13px rgba(102, 102, 102, 0.86);
+	  box-shadow: 0px 0px 12px 15px rgba(102, 102, 102, 0.86);
 	}
 	
 	20%, 80% {
@@ -133,15 +133,12 @@ iframe {
   }
 
 
-
-
  /* @keyframes pulse {
 	100% {
 	  transform: scale(1.75);
 	  opacity: 0;
 	}
 } */
-
 
 
 .sound1 #video-mask {
@@ -230,11 +227,14 @@ background-image: linear-gradient(152deg, #FF9A8B 0%, #FF6A88 36%, #FF99AC 58%, 
 
 
 /* mby weg??? */
-.voice3 {
-	animation: blink-animation 1s steps(5, start) infinite;
-	-webkit-animation: blink-animation 1s steps(5, start) infinite;
-	animation: moveright 3s infinite;
-    animation-timing-function: ease;
+.voice3.on{
+	/* animation: blink-animation 1s steps(5, start) infinite;
+	-webkit-animation: blink-animation 1s steps(5, start) infinite; */
+	/* animation: moveright 2s alternate;
+    animation-timing-function: ease; */
+	animation: move-right 1s ease;
+
+		
   }
   @keyframes blink-animation {
 	to {
@@ -246,14 +246,24 @@ background-image: linear-gradient(152deg, #FF9A8B 0%, #FF6A88 36%, #FF99AC 58%, 
 	  visibility: hidden;
 	}
   }
-  @keyframes moveright {
+
+  @keyframes move-right {
+			
+	/* 0% {
+		transform:translateX(0px);
+	}
+	100% {
+		transform:translateX(50px);
+	} */
 	from {
 		left: 12em;
 	  }
 	  to {
 		left: 14em;
 	  }
-  }
+}
+
+
 
 
     /* .sound4 #video-mask{ 
