@@ -45,6 +45,7 @@ iframe {
 	padding: .5em;
 	left: 50%;
 	transform: translateX(-50%);
+	text-align: center;
 }
 
 #closed-captions .p6.on {
@@ -249,21 +250,19 @@ background-image: linear-gradient(152deg, #FF9A8B 0%, #FF6A88 36%, #FF99AC 58%, 
 
   @keyframes move-right {
 			
-	/* 0% {
+	0% {
 		transform:translateX(0px);
 	}
 	100% {
 		transform:translateX(50px);
-	} */
-	from {
+	}
+	/* from {
 		left: 12em;
 	  }
 	  to {
 		left: 14em;
-	  }
+	  } */
 }
-
-
 
 
     /* .sound4 #video-mask{ 
@@ -372,7 +371,7 @@ background-image: linear-gradient(152deg, #FF9A8B 0%, #FF6A88 36%, #FF99AC 58%, 
 	animation: lichtcell 5s 1;
 	animation-direction: normal;
 	
-}
+} 
 
 @keyframes lichtcell {
 	0% {
@@ -444,19 +443,23 @@ background-image: linear-gradient(152deg, #FF9A8B 0%, #FF6A88 36%, #FF99AC 58%, 
 
    .sound9{
 	color: #fff;
-	animation: blink 2.8s linear infinite, redlight 43s ease 1s;
+	animation: blink 2.8s linear -1s infinite, redlight 43s ease 1s;
 	/* animation: redlight 40s ease; */
 	/* animation-delay: 1s; */
-
   }
+
+
   @keyframes blink {
 	0% {
-	  opacity: 0;
+	  opacity: 1;
 	}
-	50% {
-	  opacity: .5;
+	49% {
+	  opacity: 1;
 	}
-	60%{ 
+	51%{
+		opacity: 0;
+	}
+	55%{ 
 		opacity: 1;
 	}
 	100% {
@@ -486,7 +489,7 @@ background-image: linear-gradient(152deg, #FF9A8B 0%, #FF6A88 36%, #FF99AC 58%, 
 
 
   .sound10 #video-mask{
-	/* animation: zoom-in 26s ease-out; */
+	animation: zoom-in 26s ease-out;
   }
 
   @keyframes zoom-in{
@@ -500,7 +503,9 @@ background-image: linear-gradient(152deg, #FF9A8B 0%, #FF6A88 36%, #FF99AC 58%, 
 	100%{transform: scale(1, 1);}
   }
 
-  .sound11.sound12.sound13 {
+  .sound11,
+  .sound12,
+  .sound13 {
 	color: #fff;
 	animation: blink-fast 1s linear, redlight2 4s ease;
 	/* animation-delay: 2s; */
@@ -508,15 +513,21 @@ background-image: linear-gradient(152deg, #FF9A8B 0%, #FF6A88 36%, #FF99AC 58%, 
 
   @keyframes blink-fast {
 	0% {
-	  opacity: 0;
+		opacity: 1;
+	  }
+	  49% {
+		opacity: 1;
+	  }
+	  51%{
+		  opacity: 0;
+	  }
+	  55%{ 
+		  opacity: 1;
+	  }
+	  100% {
+		opacity: 1;
+	  }
 	}
-	50% {
-	  opacity: .5;
-	}
-	100% {
-	  opacity: 1;
-	}
-  }
 
   @keyframes redlight2 {
 	0%{background-color: #9d0000;}
@@ -528,7 +539,6 @@ background-image: linear-gradient(152deg, #FF9A8B 0%, #FF6A88 36%, #FF99AC 58%, 
 
 
 	
-
 
 
 
