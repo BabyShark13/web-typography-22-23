@@ -726,7 +726,7 @@ background-image: linear-gradient(152deg, #FF9A8B 0%, #FF6A88 36%, #FF99AC 58%, 
 	}
 
 	.sound19{
-		animation: scan 3s ease;
+		animation: scan 5s ease;
 	}
  
 	
@@ -746,13 +746,6 @@ background-image: linear-gradient(152deg, #FF9A8B 0%, #FF6A88 36%, #FF99AC 58%, 
 
 
 
-
-
-/* die piep geluid aan einde van sound 9 moet nog bij */
-/*
-
-   /* filter: blur(8px);
-   -webkit-filter: blur(8px); */
 
 
 /* feedback

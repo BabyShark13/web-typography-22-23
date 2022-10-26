@@ -1,83 +1,55 @@
-# Web Typography, 2020/2021
+# Web Typography 2022
 
-Als je doof bent, of als je om een andere reden geen geluid kunt horen, dan mis je veel informatie als je een film kijkt. Knisperende voetstappen, langzaam aanzwellende muziek, nerveus getik op een deur, je hoort het natuurlijk allemaal niet. Nu bestaat er zoiets als *closed caption*, wat een type ondertiteling is waarbij ook dingen als omgevingsgeluiden en de muziek beschreven worden. Hierdoor krijgt een kijker die informatie wel binnen.
+Dit opdracht was bedoeld voor iemand die slechthorend is van z’n geboorte. Daarvoor hebben een gedeelte van een film moeten designen zo dat een slechthorend man de gevoeld krijgt dat een goedhorend man kan krijgen door achtergrondgeluiden.  
 
-Alleen wordt die auditieve informatie nogal neutraal beschreven. Het geluid van huilend persoon zou bijvoorbeeld beschreven kunnen worden als *snikgeluid op de achtergrond*. En iemand die lacht zou geschreven kunnen worden als *iemand lacht.* Heel neutraal, bijna zakelijk, en bovendien allebei in precies hetzelfde neutrale lettertype. Terwijl het toch echt over twee heel verschillende emoties gaat. 
+Ik heb inspiratie opgedaan thuis tijdens film kijken. Mijn TV heeft lichten achter in verschillenden kleuren. Dat is heeft een beetje extra sfeer tijdens film kijken, maar als je niet hoord dan is dat natuurlijk niet echt iets. Daarvoor heb ik gekozen om te simpel te beginnen met wat lichte rond de video frame om dat sfeer een beetje te creëren en verder wat intenser te maken.
 
-Dat kan visueel sterker. 
 
-En dat gaan jullie doen.
+## Exclusive Design Principles
 
-## Leerdoelen
+1.Study Situation
+Als je doof bent, of als je om een andere reden geen geluid kunt horen, dan mis je veel informatie als je een film kijkt. Hiervoor hebben wij met de klas de fragment eerst gekeken zonder geluid en moesten vertellen wat we voelen tijden, aangezien we gewend zijn om geluid bij te horen. Daarna hebben we het nog een keer gekeken met geluid en kregen gelijk andere sfeer bij, eerst was best oncomfortabel en daarna met het achtergrondgeluid had je gelijk door dat er snappende moment is. Voordat ik ging ontwerpen heb ik de hele video paar keer zonder geluid gekeken om dat sfeer te ervaren en daarna met om te kijken als het echt overeenkomt met wat ik eerst dacht dat er is. Na dit experiment ben ik gaan ontwerpen geïnspireerd door de lichten die sommige tv hebben. Verder heb ik paar keer een stukjes getest, waarvan ik niet helemaal zeker was als dat sfeer creëren die ik wil mee geven. Daarvoor heb ik de bepaalde stuk laten zien aan mensen die er dat video niet hebben gezien en vragen wat voor gevoel ze krijgen en aan de hand daarvan heb ik aantal aanpassingen gemaakt. Dat vertel ik later bij kopje effecten. 
 
-- Je kan de kennis over vormgeving die je hebt opgedaan tijdens de minor technisch toepassen met behulp van CSS
-- Je kan verborgen nuance uit een audiotrack overtuigend vertalen naar visuele (typografische) beelden
-- Je kan je typografische keuzes onderbouwen.
-- Je hebt de exclusive design principles gebruikt.
+2.Ignore Conventions
+We zijn gewend om iets mooi en gebruiksvriendelijk te ontwerpen, maar vaak denken we niet aan mensen die met beperkingen en groot deel van de design principe zijn niet daarvoor ontworpen. Daarom moeten wij zoals ontwerpers goed ze kennen om makkelijk te kunnen ontwijken. Om te beginnen heb ik goed naar de geluiden geluisterd en per geluid gaan kijken waarop lijken, zodat ik door visueel dat ook overkomen met het geluid en echte wereld. Daarvoor heb ook bepaalde kleuren gebruikt (meer hierover vertel in volgende kopje) die er dat geluid kunne vertsterken. Ik vond het best lastig om in begin uit mijn comfort zone te komen, aangezien ik gewend ben om wat mooi te maken en niet gek achtergrond bij doen of iets wat de aandacht kan trekken naar verkeerde plek.
 
-## Oplevering
+3.Prioritise Identity
+Standaard als we ontwerpen iets denken we heel weinig aan mensen met beperking en sluiten hun af. Natuurlijk als we een film kijken en alles wat overeen gebeurd heeft bepaalde sfeer en emotie, dat slechthorende mensen niet mee kunnen maken. Vooral als je doof bent sinds je geboorte dat zijn veel geluiden onbekend en is best lastig om dat over te dragen aan iemand. Daarvoor heb ik bepaalde kleur gebruikt dat er duidelijk aangeven wat er kan zijn. Iedereen weet bijvoorbeeld dat rood is een kleur voor gevaarlijk en als het ziet moet je meer opletten. Ik heb in algemeen weinig kleur gebruikt, omdat het niet de verwarrend wil maken. Ik heb gebruikt gemaakt van zwart wit en rood (lichten tinten ervan ook) en blauw. Ik heb gekozen om zwarte achtergrond aangezien het een spannend moment is en af en toe wat lichte/ wit kleur naar voor komt. De kleur rood heb ik vooral gebruik als er alarm in de achtergrond te horen was, om de sfeer te geven dat er iets gebeurd en dat er spannend en eng is. De witte heb ik voor sfeer gebruikt als er mist was of een alarm of “ring” geluid. En blauw heb ik gebruik met een combinatie van rood om de sirene van politie auto na te doen. Dat zijn allemaal heel bekenden lichten en geluiden, dat gelijk de idee geven dat er iets aan de hand is. 
 
-Je levert een werkende versie op, gemaakt met HTML, CSS en JavaScript. Deze staat op Github. In een duidelijke readme documenteer en onderbouw je je ontwerpkeuzes. Je developmentgeschiedenis is terug te vinden op GitHub.
+4.Add Nonsense
+Ontwerpen voor mensen met beperking is best lastig aangezien er veel tools zijn die onbekend zijn voor ons en denken vaak niet na dat iemand bijvoorbeeld bepaalde kleur niet ziet of geluid niet hoort. In begin was best ingewikkeld om helemaal in dit gedachten te komen en was voorzichtig met mijn ontwerp. Daarna ben ik steeds meer gaan toe te voegen en gekker te maken. Elk effect dat ik aangemaakt zou ik onderaan bij de kop effect een bij een bespreken. Ik heb heel lichten gebruikt dat kunnen heel makkelijk iemand afleiden als er bijvoorbeeld aangepast is op een normale website. Natuurlijk is nagedacht voor elk licht en beweging die ik heb gemaakt dat er sluit aan de geluid en de gevoel dat een geluid dan doen.
+Voor nonsense heb ik een gif toegevoegd bij de moment dat de voice 3 zegt “You can pick up your bonus.” en persoon 2 zegt “Thank you, sir.” daar komt een gif van een kat die ze hoofd beweegt. De idee hierachter was dat hij heel blij is dat zijn bonus moet ophalen, maar omdat er hij nog zo serieus kijkt vond ik grappig om iets wat niet serieus is maar meer grappig bij te doen en natuurlijk dat leidt heer erg af. De contrast tussen de situaties vind ik leuk om uit te proberen, eerst had ik de idee om achter iemand die er aan het klappen was maar vond daarna heb ik geprobeerd om wat grappigs bij te doen en vind persoonlijk dat dat er beter past voor de nonsense gedeelte.
 
-Je levert ook een *screen recording* met audio op van je fragment. Dit is een video van de definitieve versie, gemaakt van jouw browserscherm.
 
-De beoordeling is mondeling en volgt [de rubric uit het beoordelingsformulier](web-typografie-beoordeling.pdf).
+## Typografie
 
-## Typografische restricties
+Voor standaard lettertype heb ik gekozen de “Brenner Sans”, font-style: normal en normale dikte. Ik heb dit gekozen, omdat het goed leesbaar is. Mijn bedoeling is dat zo minder mogelijk met de font te doen, omdat veel gebeurt in de achtergrond en wil dat er nog rustig te kunnen lezen. Ik heb er duidelijk gemaakt dat er 2 of 3 mensen in een gesprek zijn door gebruikt te maken van font-style aan te passen. De posities van de tekst heb ik gekozen om meer op een subtitel te lijken vandaar die positie. Verder heb ik de eerste woorden van voice 4 “we’re done” wat groter gemaakt, omdat hij het duidelijk het zegt en kom over zoals hij het harder zegt, maar dat is niet zo. Vandaar dat het iets groter is en bolder.
 
-Je *moet* een van deze twee opties kiezen, en je keuze moet je onderbouwen. In je readme staat een uitleg over je overwegingen om de ene of de andere restrictie te kiezen.
+Voor voice 1 heb ik de dikte van de tekst aangepast naar 500. Ik heb de lettertype dezelfde gehouden, omdat de persoon die praat heeft een strakke, zware en duidelijke stem en ik vind dat dit font best bij past. 
 
-### Optie 1: Systeemfont
+Voor voice 2 heb ik wel andere lettertype gebruikt, “Brenner Mono” italic en normale dikte. Ik heb hiervoor gekozen, omdat hij wat rustiger/ kalm, altijd op een toon antwoorden, daarom heb ik gekozen voor wat dunner font en italic om gelijk te zien dat er iemand anders aan het spreken is.
 
-De eerste optie is dat je gebruik maakt van het zogenaamde *systeemfont* van degene die naar jouw werk kijkt. Dit font verschilt per operating system, en het verschilt soms zelfs per versie van het operating system. Het is ook aan te passen door de gebruiker zelf. 
+Voor voice 3 heb ik weer “Brenner Sans” gebruik, maar lichter. Dat heb ik gedaan, omdat hij het serieus en streng zegt, maar niet hard genoeg dat iedereen het hoort. Daarvan is de strakke lettertype maar niet te bold. 
 
-Je hebt dus geen controle over welk lettertype er precies gebruikt wordt. Het levert dus een onzeker, en beperkt typografisch palet op. Je hebt geen *light* versies, of *extrabold*. En ook geen serif en sans-serif versie van dezelfde familie. In dit geval heb je alleen de beschikking over normal, **bold** en _italic_. Dit heeft natuurlijk ook zijn voordelen!
+Voor voice 4 heb ik ook “Brenner Sans” gebruik, maar bolder aangezien hij maar een keer komt tussen in een gesprek. Zijn toon is serieus en komt beetje over zoals hij niet helemaal blij mee is.
 
-### Optie 2: Brenner
+Daarna heb ik voice 5 en 6 toegevoegd voor de 2 fragment. Daarvoor heb ik dezelfde stijl gebruikt zoals voice 1 en 2. Voice 5 is gelijk aan voice 1 alleen hiervoor heb ik de dikte van er wat minder dus op 400 gezet en voor  voice 6 die er gelijk is aan voice 2 heb ik de dikte naar 500 veranderd, omdat krijg een gevoel dat hij meer belangrijker is in dit gedeelten. Als ik de fragment kijkt dan zie ik dat ze hem analyseren van daar heb ik mijn keuzes gemaakt, dat hij belangrijker is in dit fragment.  
 
-Je kan er ook voor kiezen om gebruik te maken van de complete Brenner familie. Dit is een zeer uitgebreid en uiterst flexibel font. [Hier kan je je verdiepen in dit font](https://www.typotheque.com/blog/brenner_an_unusual_typeface_family_with_distinct_voices). Als je kiest voor dit font dan heb je de beschikking over een *sans serif*, een *condensed*, een *serif*, een *monotype*, een *slab*, een *display* en een *script* versie. En veel van deze versies hebben varianten van *light* tot *bold*, en allemaal zowel *bold* als *italic*.
+## Animatie
 
-Met Brenner zijn er natuurlijk veel en veel meer mogelijkheden dan met systeemfonts. Dat kan zowel een voordeel als een nadeel zijn. 
+Eerste effect dat ik heb aangepast is trillen en licht wit schaduw gemaakt, omdat de eerste geluid is heel apart en heeft soort trillen gevoel en omdat er door de gebouwen vliegt dat dat er de beste gevoel bij heeft. De witte kleur is omdat er beetje mistig. Daarna hoor je een geluid zoals je op een knop klikt en een deur open gaat, daar heb ik de trill effect opnieuwe gebruikt maar erger gemaakt, omdat het geluid wat harder en sterker overkomt en met het woorden die hij zegt “let’s begin” heeft ook aan dat er iets gaat gebeuren. Daarna zijn sirene te horen en daaraan moest ik denken aan politie sirene, vandaar de rood en blauw kleur dat een politieauto heeft. Daarna heb ik nog een sirene gehoord en dat hoor ik van de rechte kant daarvan dat de roode licht van rechts naar links gaat om meer idee te geven. Natuurlijk als wij naar een film of video kijken met de technologie van nu kan je heel makkelijk doen dat je van ene kant een geluid hoor en van andere kant andere geluid, of dat er zachter is omdat die verder zit. Dat was mijn bedoeling om mee te spelen en dat gevoel ook te creëren door middel van beeld. Ik ben rood gebruikt, omdat er meer zoals alarm klinkt in een gevangenis wanneer iedereen naar buiten of binnen mogen. En gelijk daarna om dat alarm te versterken heb ik ook een rode schaduw gemaakt. De volgende effect dat ik heb ontworpen was de tekst van voice 3 te bewegen, aangezien niet zo belangrijke rol speelt en een korte zin in heb ik die geanimeerd. Er is goed op de video te zien dat hij van link af naar hem toe dus rechts loopt om dat tegen hem/hoofdpersoon te vertellen vandaar dat de animatie meebeweegt. Die is ook wat groter gemaakt en in licht rood, omdat hij iets onaardig tegen zegt maar niet heel hard genoeg om iedereen te horen maar echt specifiek naar hem toe zegt. Daarna is gelijk een piep geluid te horen, zoals een iets zoals deur open gaat of begin van iets is (bijvoorbeeld een soccer game heeft soortelijk geluid). Omdat het geluid harder is heb ik de achtergrond late knipperen dus wit, grijs naar zwart overgang gemaakt. Daarna heb ik het beeld laten eenmaal knipperen, want er soort “bzzz” geluid te horen is en gelijk daarna een cell effect heb gemaakt. Dat komt helemaal goed op met de volgende woord dat wordt gezegd en dat is “cell”. Daarna komt het interview gedeelte waar de hoofdpersoon helemaal ondervraagd wordt en eerste wat mij opviel was dat er een tiek in de achtergrond te horen is. Na paar keer luister kon ik zeggen dat er leek op een cameraflits of iemand die iets opschrijft, want dat hoor je alleen als voice 2 antwoord heeft. Op dit moment heb ik een effect aangemaakt die er op een cameraflits lijkt. Dat als je die geluid hoor dat er die flits ziet, daarmee wil ik dat ook meegeven dat er iets gebeurd en dat die niet zomaar naar een muur zit te kijken. Verder op de achtergrond is ook een irritant piep geluid te horen die gelijdelijk steeds irritanter/heftiger wordt. Om dat te visualiseren heb ik de achtergrond langzaam van zwart naar rood laten veranderen en hoe irritanter het wordt hoe feller de rood wordt. Daarna later in dat stuk wordt in de filmpje ingezoomd en omdat het gesprek een spannend gevoel bij heeft heb ik het frame ook vergroot om de zoom effect te vergroten. Als dat scènes klaar is dat hoor is “we are done” te horen en daar heb ik alleen het font aangepast. Verder als hoofdpersoon ze bonus krijgt dan komt de nonsens in beeld en dat is een gif van een kat, zoals hij blij is dat die ze bonus kan ophalen. Het leukste aan is omdat hij nog beste serieus bij zit en dan zeg het heel flak. 
 
-Voor een overzicht, zie [de brenner.pdf](brenner.pdf).
+Voor de 2e fragment heb ik een opening gemaakt met achtergrondruis/ tv statisch tv beeld en de video frame gaan open vouwen. Daarna hoor je een telefoon af gaan en heb een trilling/ shake animatie aangemaakt. En laatste animatie is een scan lijn aangezien er op de video is ook een te zien leek me leuk om ook een op de achtergrond te doen.
 
-## Het fragment
 
-Ik heb een fragment voorbereid. Het gaat om twee scenes uit *Blade Runner 2049*. De captions staan in de HTML, en ze verschijnen in sync met de video. [Kijk maar](closed-captions/index.html).
+## Feedback
 
-### De captions
+Voortgangsgesprek 1:
+Toen was ik niet heel ver, maar kreeg een feedback over de zichtbaarheid van me font. Op dit moment was deze feedback niet heel van toepassing aangezien ik 3 basis kleuren heb gebruik om alleen de afscheid te doen tussen de personen in de gesprek en had verder niet nagedacht over zichtbaarheid, font of groote er van. De andere was dat “fuck off” kon wat dikker dat het was. Algemene opmerking was om beter te ver te gaan en dan terug dan heel voorzichtig te werken.
 
-De captions staan in de html, in het bestand index.html. Je kan aan elke paragraaf eventueel een of meer classes toevoegen. Bijvoorbeeld `voice1` of `voice2 soft`. Classes voeg je handmatig toe in de html.
+Voortgangsgesprek 2:
+Alles was goed, lekker bezig. Alleen dat tikje/ cameraflits geluid  was er een animatie die iets subtieler kon maken en uitproberen. En nog een keer dezelfde feedback over de font, die ik nog niet aangepast had. 
 
-Met JavaScript worden er een paar dingen extra gedaan: 
+Volgende dag had ik dat cameraflits animatie aangepast en vroeg aan voor nog een feedback op aan klasgenoten. Die vond het beter en niet zo opvallen, de nieuwe versie was beter en sneller. Daarna had ik nog een keer aan de docent gevraagd en hij vond het nog steeds niet heel lijkend op een cameraflits, dus hebben samen het aangepast, maar dan vond ik het zelf niet heel erg op lijken en later nog een keer met het keyframe aan het spelen totdat ik het gewilde resultaat kreeg.
 
-- er wordt aan elke paragraaf een unieke class toegevoegd (`p0`, `p1`, etc)
-- Elk woord wordt in een aparte `span` gezet. Hierdoor kan je elk woord apart stylen, en eventueel ook [na elkaar laten verschijnen](https://github.com/cmda-minor-vid/web-typography-18-19/blob/master/closed-captions/css.css#L41).
-
-### Tijdens het afspelen
-
-Tijdens het afspeelen wordt er een class `on` op de caption gezet als hij moet verschijnen, en een class `off` als hij klaar is. *Zowel class `on` als class `off` blijft op de caption staan!*
-
-De timimg van de captions kan je aanpassen in [closed-captions/captions.js](closed-captions/captions.js).
-
-Er verschijnen ook classes op de body op momenten dat er geluiden worden afgespeeld, zoals `sound1` en `sound2`. Je kan geluiden toevoegen in [closed-captions/sounds.js](closed-captions/sounds.js).
-
-*let op,* de geluiden zijn niet compleet, dit zal je zelf moeten aanvullen.
-
-## Een eigen fragment (afgeraden, uitgebreide onderbouwing is nodig)
-
-Je kan er ook voor kiezen om een eigen, *beter* fragment te gebruiken. Dit wordt afgeraden. De tijd die je besteedt aan het zoeken naar dat fragment kan je beter besteden aan het werken aan de opdracht. Bovendien blijkt dat er vaak fragmenten worden gekozen die niet goed voldoen aan de opdracht. Als je een ander fragment kiest dan *moet* je dit goed onderbouwd voorleggen aan je docent. De deadline hiervoor is vrijdagochtend in de eerste week.
-
-### Waar moet je op letten bij het kiezen van een eigen fragment.
-Lees de opdracht nog eens goed door. Waar gaat het ook al weer precies om? 
-
-Voor een goede onderbouwing van je keuze voor een ander fragment moet je deze vragen in elk geval beantwoorden:
-
-- Welke informatie zit er in de audio die echt niet zichtbaar is?
-- Welke rol speelt de audio in het fragment?
-- Werkt de scene nog zonder geluid?
-- Waarom is dit fragment beter dan het aangeboden fragment?
-
-Je kan dan de nodige HTML en JavaScript genereren door gebruik te maken van [caption generator](https://cmda-minor-vid.github.io/web-typography-18-19/generator/) (in Google Chrome). 
-
-Als je de closed captions wil bewerken dan kan je een tool zoals [Amber Script](https://www.amberscript.com/en) gebruiken. Daar kan je exporteren als `.srt`, en die kan je weer door de generator halen.
+Verder heb ik feedback gevraagd over de zoom-in animatie en kreeg dat er met beter is en goed aansluit op en het zo erger maak en dat is wat we willen bereiken en de juiste gevoel bij geven.
