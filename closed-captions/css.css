@@ -487,7 +487,7 @@ background-image: linear-gradient(152deg, #FF9A8B 0%, #FF6A88 36%, #FF99AC 58%, 
 
 
   .sound10 #video-mask{
-	/* animation: zoom-in 26s ease-out; */
+	animation: zoom-in 26s ease-out;
   }
 
   @keyframes zoom-in{
