@@ -39,8 +39,11 @@ iframe {
 	opacity: 0;
 	transition: .05s;
 	position: absolute;
-	font-size: 1.25em;
 	bottom: -1em;
+	font-family: "Brenner Sans";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.25em;
 	background-color: rgba(0, 0, 0, 0.7);
 	padding: .5em;
 	left: 50%;
@@ -63,38 +66,40 @@ iframe {
 }
 
 
-.voice1 {
+#closed-captions .voice1 {
 	color: #f5f5f5;
-	font-weight: 500;
 	font-style: normal;
-}
-
-
-.voice2 {
-	color: #DEDEDE;
 	font-weight: 500;
-	font-style: italic;
 }
 
-.voice3{
+
+#closed-captions .voice2 {
+	font-family: "Brenner Mono";
+	font-style: Italic;
+	font-weight: 400;
+	color: #DEDEDE;
+}
+
+#closed-captions .voice3{
 	color: rgb(219 124 124);
+	font-family: "Brenner Sans";
 	font-style: oblique;
 	font-weight: lighter;
 }
 
-.voice4{
+#closed-captions .voice4{
 	color: rgb(255, 255, 255);
 	font-style: normal;
 	font-weight: bolder;
 }
 
-.voice5{
+#closed-captions .voice5{
 	color: #f5f5f5;
 	font-weight: 400;
 	font-style: normal;
 }
 
-.voice6 {
+#closed-captions .voice6 {
 	color: #DEDEDE;
 	font-weight: 500;
 	font-style: italic;
